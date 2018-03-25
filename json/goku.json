@@ -1,0 +1,292 @@
+[
+    {
+        "Command": "5L",
+        "Damage": "400",
+		"Guard": "All",
+        "Start up frame": "6",
+        "Active": "3",
+        "Recovery": "-",
+        "Frame Advantage": "-3",
+        "Notes": "Goku does a short jab."
+    },
+    {
+        "Command": "5LL",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "3",
+        "Recovery": "-",
+        "Frame Advantage": "-4",
+        "Notes": "Goku does a gut punch."
+    },
+	{
+        "Command": "5LLL",
+        "Damage": "1000",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "18",
+        "Recovery": "-",
+        "Frame Advantage": "-5",
+        "Notes": "Goku does a roundhouse. Autocombos into super dash. Has an interesting property where the hitbox reaches behind Goku."
+    },
+	{
+        "Command": "5M",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "9",
+        "Active": "17",
+        "Recovery": "-",
+        "Frame Advantage": "-7",
+        "Notes": "Goku steps forward and does an elbow strike upwards, striking mid. A solid mid, can clash with super dash if timed well."
+    },
+	{
+        "Command": "5H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "14",
+        "Active": "22",
+        "Recovery": "-",
+        "Frame Advantage": "-8",
+        "Notes": "Goku does a sidekick, counts as a smash and sends them flying sideways. Can be followed up with Super dash by pressing H again or H+S."
+    },
+	{
+        "Command": "5S",
+        "Damage": "300",
+		"Guard": "All",
+        "Start up frame": "13",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-4",
+        "Notes": "Goku shoots a ki blast. Can be repeated up to six times. 6th blast causes soft KD on grounded hit"
+    },
+	{
+        "Command": "2L",
+        "Damage": "400",
+		"Guard": "All",
+        "Start up frame": "6",
+        "Active": "10",
+        "Recovery": "-",
+        "Frame Advantage": "-3",
+        "Notes": "Goku crouches and jabs."
+    },
+	{
+        "Command": "2M",
+        "Damage": "700",
+		"Guard": "L",
+        "Start up frame": "10",
+        "Active": "17",
+        "Recovery": "-",
+        "Frame Advantage": "-5",
+        "Notes": "Goku crouches and does a sidekick."
+    },
+	{
+        "Command": "2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku does a leaping uppercut upwards. Go-to anti-air. Has a firmly vertical hitbox, however."
+    },
+	{
+        "Command": "2S",
+        "Damage": "-",
+		"Guard": "All",
+        "Start up frame": "13",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-1",
+        "Notes": "Goku shoots a ki blast upwards Placeholder"
+    },
+	{
+        "Command": "6M",
+        "Damage": "850",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "6",
+        "Recovery": "10",
+        "Frame Advantage": "0",
+        "Notes": "Universal overhead. Goku hops and does a two handed overhead smash. Has some low invincibility."
+    },
+	{
+        "Command": "j.L",
+        "Damage": "400",
+		"Guard": "H",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku does a jumping straight jab. "
+    },
+	{
+        "Command": "j.M",
+        "Damage": "700",
+		"Guard": "H",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku does a jumping sidekick."
+    },
+	{
+        "Command": "j.H",
+        "Damage": "850",
+		"Guard": "H",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku does a two handed overhead smash."
+    },
+	{
+        "Command": "j.S",
+        "Damage": "600",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku fires a downward ki blast."
+    },
+	{
+        "Command": "j.2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "14",
+        "Active": "19",
+        "Recovery": "-",
+        "Frame Advantage": "-17",
+        "Notes": "Goku does an upward kick. Not an overhead in the air."
+    },
+	{
+        "Command": "236L",
+        "Damage": "900",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "18",
+        "Recovery": "-",
+        "Frame Advantage": "-5",
+        "Notes": "Counts as airborne. Short distance, soft kd on grounded hit. Incredibly useful combo ender, allows goku to turn essentially any hit into a hard knockdown without spending meter."
+    },
+	{
+        "Command": "236M",
+        "Damage": "1000",
+		"Guard": "H",
+        "Start up frame": "26",
+        "Active": "18",
+        "Recovery": "-",
+        "Frame Advantage": "-5",
+        "Notes": "Counts as airborne. Mid distance, sliding knockdown on grounded hit."
+    },
+	{
+        "Command": "236H",
+        "Damage": "1100",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "18",
+        "Recovery": "-",
+        "Frame Advantage": "-5",
+        "Notes": "Teleports to the opponent from wherever Goku was previously. Sliding knockdown on grounded hit."
+    },
+	{
+        "Command": "214L",
+        "Damage": "893",
+		"Guard": "All",
+        "Start up frame": "10",
+        "Active": "13",
+        "Recovery": "-",
+        "Frame Advantage": "-3",
+        "Notes": "Goku does 2 hits of a flying kick. Doesn't knock down. Safe on block. "
+    },
+	{
+        "Command": "214M",
+        "Damage": "999",
+		"Guard": "All",
+        "Start up frame": "13",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Causes wallbounce in the corner. Used for Goku's optimal corner combos."
+    },
+	{
+        "Command": "214H",
+        "Damage": "1320",
+		"Guard": "All",
+        "Start up frame": "11",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Goku performs a faster flurry of kicks than the M version. Causes wallbounce on hit, allowing for combo extension."
+    },
+	{
+        "Command": "236S",
+        "Damage": "1098",
+		"Guard": "All",
+        "Start up frame": "18",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-16",
+        "Notes": "Can be angled upward by holding up after the input. On hit, can combo by doing a vanish and linking a dash 2M."
+    },
+	{
+        "Command": "j.236S",
+        "Damage": "1098",
+		"Guard": "All",
+        "Start up frame": "18",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-16",
+        "Notes": "Can be angled downwards by holding down after the input"
+    },
+	{
+        "Command": "Assist",
+        "Damage": "760",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Good for controlling ground space in neutral. Good for extending combos."
+    },
+	{
+        "Command": "236L+M",
+        "Damage": "2050",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-19",
+        "Notes": "Can be angled upward by holding up after the input. Has significantly low recovery, making punishes difficult."
+    },
+	{
+        "Command": "j.236L+M",
+        "Damage": "2050",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-19",
+        "Notes": "Can be angled downward by holding down after the input. If angled down, causes a hard knockdown. In a corner scenario, angled down version can combo into Warp Kamehameha if the juggle is high enough in the air. Has significantly low recovery, to the point that it's possible to combo afterwards still."
+    },
+	{
+        "Command": "236H+S",
+        "Damage": "2214",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-",
+        "Notes": "Teleports behind the opponent on the ground and fires a kamehameha upwards. Can also be done in the air."
+    },
+	{
+        "Command": "214L+M",
+        "Damage": "4208",
+		"Guard": "All",
+        "Start up frame": "-",
+        "Active": "-",
+        "Recovery": "-",
+        "Frame Advantage": "-14",
+        "Notes": "Goku transforms into Super Saiyan 3 and teleports behind the opponent, striking them with his elbow. Blockable after Goku teleports. Easy to punish with and combo into, but has zero vertical tracking."
+    }
+]
