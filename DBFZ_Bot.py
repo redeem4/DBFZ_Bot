@@ -36,7 +36,6 @@ combot_gagged_channels_File.close()
 # stuff = content.loads(content)
 
 @bot.event
-async def on_ready():
     # Display Login Status in Console
     print('<---------------------------->')
     print('Logged in as')
