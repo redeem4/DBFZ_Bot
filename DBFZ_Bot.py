@@ -36,11 +36,6 @@ combot_gagged_channels_File.close()
 # stuff = content.loads(content)
 
 @bot.event
-    # Display Login Status in Console
-    print('Logged in as')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('<---------------------------->')
     while True:
         await bot.change_presence(game=discord.Game(name='YouLikeADamnFiddle'))
         await asyncio.sleep(30)
