@@ -1,1 +1,1 @@
-worker: python C:\Users\Dale\Documents\DBFZ_Bot_Copy\DBFZ_Bot.py
+worker: python DBFZ_Bot.py
