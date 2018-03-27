@@ -203,7 +203,7 @@ async def Frame_Data(ctx):
 @bot.command(pass_context=True)
 async def invite(ctx):
     """Invite the bot to your server."""
-    await bot.say('Use this link to add me to your server. \nhttps://discordapp.com/oauth2/authorize?client_id=302295833208946689&scope=bot&permissions=11264')
+    await bot.say('Use this link to add me to your server. \nhttps://discordapp.com/oauth2/authorize?client_id=418597940840628225&scope=bot&permissions=0')
     await user_message_cleanup(ctx.message)
     return
 
