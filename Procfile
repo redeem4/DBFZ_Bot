@@ -1,1 +1,1 @@
-worker python DBFZ_Bot.py
+worker: python DBFZ_Bot.py
