@@ -264,3 +264,6 @@ handlers = log.handlers[:]
 for hdlr in handlers:
     hdlr.close()
     log.removeHandler(hdlr)
+
+    
+client.login(process.env.BOT_TOKEN);
