@@ -29,7 +29,20 @@ combot_gagged_channels_File = open("lib/gagged_channels.txt", 'r')
 combot_gagged_channels = combot_gagged_channels_File.read().splitlines()
 combot_gagged_channels_File.close()
 
+# TODO: YOU LEFT OFF HERE
+#file = open('bot_settings.json', 'r+')
+# content = file.read()
+# file.close()
+# stuff = content.loads(content)
+
 @bot.event
+async def on_ready():
+    # Display Login Status in Console
+    print('<---------------------------->')
+    print('Logged in as')
+    print(bot.user.name)
+    print(bot.user.id)
+    print('<---------------------------->')
     while True:
         await bot.change_presence(game=discord.Game(name='YouLikeADamnFiddle'))
         await asyncio.sleep(30)
@@ -56,6 +69,9 @@ async def on_message(message):
             case_sensitive_toggle = True
         else:
             case_sensitive_toggle = False
+
+        # message content should look like this
+        # ![character] [move]
 
         userMessage = message.content
         userMessage = userMessage.replace("!", "")
@@ -248,6 +264,3 @@ handlers = log.handlers[:]
 for hdlr in handlers:
     hdlr.close()
     log.removeHandler(hdlr)
-
-    
-client.login(process.env.BOT_TOKEN);
