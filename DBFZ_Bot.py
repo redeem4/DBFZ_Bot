@@ -29,12 +29,6 @@ combot_gagged_channels_File = open("lib/gagged_channels.txt", 'r')
 combot_gagged_channels = combot_gagged_channels_File.read().splitlines()
 combot_gagged_channels_File.close()
 
-# TODO: YOU LEFT OFF HERE
-#file = open('bot_settings.json', 'r+')
-# content = file.read()
-# file.close()
-# stuff = content.loads(content)
-
 @bot.event
     while True:
         await bot.change_presence(game=discord.Game(name='YouLikeADamnFiddle'))
@@ -62,9 +56,6 @@ async def on_message(message):
             case_sensitive_toggle = True
         else:
             case_sensitive_toggle = False
-
-        # message content should look like this
-        # ![character] [move]
 
         userMessage = message.content
         userMessage = userMessage.replace("!", "")
