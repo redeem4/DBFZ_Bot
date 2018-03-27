@@ -37,7 +37,6 @@ combot_gagged_channels_File.close()
 
 @bot.event
     # Display Login Status in Console
-    print('<---------------------------->')
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
