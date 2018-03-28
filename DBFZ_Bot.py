@@ -5,7 +5,7 @@ from discord.ext import commands
 
 # self-created modules below
 import lib.embedCreation as embedCreation #contains functions for creating an embed
-import lib.tekkenFinder as tekkenFinder   #contains functions for finding character and move details
+import lib.dbfzFinder as dbfzFinder   #contains functions for finding character and move details
 
 # Get token from local dir text file
 tokenFile = open("token.txt", 'r')
@@ -28,12 +28,6 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 combot_gagged_channels_File = open("lib/gagged_channels.txt", 'r')
 combot_gagged_channels = combot_gagged_channels_File.read().splitlines()
 combot_gagged_channels_File.close()
-
-# TODO: YOU LEFT OFF HERE
-#file = open('bot_settings.json', 'r+')
-# content = file.read()
-# file.close()
-# stuff = content.loads(content)
 
 @bot.event
 async def on_ready():
@@ -96,11 +90,11 @@ async def on_message(message):
             user_Chara_Name = 'lucky_chloe'
 
         #TODO: IMPLEMENT CHARACTER SHORTHAND NAME CONVERTER, OR CHARACTER NAMELIST DISPLAY
-        characterExists = tekkenFinder.does_char_exist(user_Chara_Name)
+        characterExists = dbfzFinder.does_char_exist(user_Chara_Name)
 
         if characterExists:
           user_Chara_Name = user_Chara_Name.lower()
-          move_attribute_dict = tekkenFinder.get_Move_Details(user_Chara_Name,
+          move_attribute_dict = dbfzFinder.get_Move_Details(user_Chara_Name,
                                                               user_Chara_Move,
                                                               case_sensitive_toggle)
 
@@ -244,15 +238,15 @@ async def is_Gagged(user_message):
     return False
 
 async def get_MoveFound_Embed(**move_attribute_dict):
-    misc_details_Dict = tekkenFinder.get_Misc_Chara_Details(move_attribute_dict['char_name'])
+    misc_details_Dict = dbfzFinder.get_Misc_Chara_Details(move_attribute_dict['char_name'])
     embedDict = {**move_attribute_dict, **misc_details_Dict}
     embed_MoveFound = embedCreation.embed_Move_Details(**embedDict)
 
     return embed_MoveFound
 
 async def get_SimilarMoves_Embed(user_Chara_Name, user_Chara_Move):
-    misc_details_Dict = tekkenFinder.get_Misc_Chara_Details(user_Chara_Name)
-    similar_moves_list = tekkenFinder.get_Similar_Moves(user_Chara_Name, user_Chara_Move)
+    misc_details_Dict = dbfzFinder.get_Misc_Chara_Details(user_Chara_Name)
+    similar_moves_list = dbfzFinder.get_Similar_Moves(user_Chara_Name, user_Chara_Move)
     embed_SimilarMoves = embedCreation.embed_Similar_Moves(similar_moves_list, user_Chara_Name, **misc_details_Dict)
 
     return embed_SimilarMoves
