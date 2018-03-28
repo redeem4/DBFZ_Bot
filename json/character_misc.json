@@ -12,8 +12,8 @@
         "local_json": "goku.json",
         "online_webpage": "http://www.dustloop.com/wiki/index.php?title=DBFZ/SS_Goku",
         "portrait": "https://www.primagames.com/media/files/goku-movelist_edit.jpg/PRIMAP/resize/618x/quality/80"
-    }
-		{
+    },
+	{
         "name": "android_16",
         "local_webpage": "android_16.html",
         "local_json": "android_16.json",
