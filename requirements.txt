@@ -2,3 +2,4 @@ discord.py
 beautifulsoup4
 FuzzyWuzzy
 DateUtils
+python-levenshtein
