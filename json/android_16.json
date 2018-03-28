@@ -1,0 +1,362 @@
+[
+    {
+        "Command": "5L",
+        "Damage": "400",
+		"Guard": "All",
+        "Start up frame": "7",
+        "Active": "3",
+        "Recovery": "15",
+        "Frame Advantage": "-4",
+        "Notes": ""
+    },
+    {
+        "Command": "5LL",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "10",
+        "Active": "4",
+        "Recovery": "22",
+        "Frame Advantage": "-10",
+        "Notes": ""
+    },
+	{
+        "Command": "5LLL",
+        "Damage": "1000",
+		"Guard": "Throw",
+        "Start up frame": "18",
+        "Active": "1",
+        "Recovery": "19",
+        "Frame Advantage": "-22",
+        "Notes": "Will whiff if 5LL is blocked, but you can delay it. Can be followed up by Flying Power Bomb or Super Dash into a combo."
+    },
+	{
+        "Command": "5M",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "11",
+        "Active": "3",
+        "Recovery": "19",
+        "Frame Advantage": "-6",
+        "Notes": "Ground bounces aerial enemies."
+    },
+	{
+        "Command": "5H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "15",
+        "Active": "11",
+        "Recovery": "21",
+        "Frame Advantage": "-8",
+        "Notes": "Invuln frames 13-25. Has armor. Reflects ki blasts."
+    },
+	{
+        "Command": "5S",
+        "Damage": "600",
+		"Guard": "All",
+        "Start up frame": "15",
+        "Active": "1",
+        "Recovery": "40",
+        "Frame Advantage": "-10",
+        "Notes": "Can be repeated once."
+    },
+	{
+        "Command": "5SS",
+        "Damage": "600, 600",
+		"Guard": "All",
+        "Start up frame": "15, 15",
+        "Active": "1, 1",
+        "Recovery": "40",
+        "Frame Advantage": "-10",
+        "Notes": ""
+    },
+	{
+        "Command": "2L",
+        "Damage": "400",
+		"Guard": "L",
+        "Start up frame": "8",
+        "Active": "3",
+        "Recovery": "13",
+        "Frame Advantage": "-4",
+        "Notes": ""
+    },
+	{
+        "Command": "2M",
+        "Damage": "700",
+		"Guard": "L",
+        "Start up frame": "13",
+        "Active": "4",
+        "Recovery": "24",
+        "Frame Advantage": "-12",
+        "Notes": ""
+    },
+	{
+        "Command": "2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "15",
+        "Active": "9",
+        "Recovery": "23",
+        "Frame Advantage": "-16",
+        "Notes": "Has Armor and reflects ki blasts. Invulnerable while active (starting 9th frame)"
+    },
+	{
+        "Command": "6M",
+        "Damage": "850",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "6",
+        "Recovery": "10",
+        "Frame Advantage": "0",
+        "Notes": "Universal overhead."
+    },
+	{
+        "Command": "j.L",
+        "Damage": "400",
+		"Guard": "H",
+        "Start up frame": "8",
+        "Active": "10",
+        "Recovery": "11",
+        "Frame Advantage": "-3",
+        "Notes": ""
+    },
+	{
+        "Command": "j.M",
+        "Damage": "800",
+		"Guard": "H",
+        "Start up frame": "11",
+        "Active": "6",
+        "Recovery": "12",
+        "Frame Advantage": "-2",
+        "Notes": ""
+    },
+	{
+        "Command": "j.H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "17",
+        "Active": "8",
+        "Recovery": "21",
+        "Frame Advantage": "-13",
+        "Notes": "Doesn't hit high. Has armor and reflects ki blasts."
+    },
+	{
+        "Command": "j.S",
+        "Damage": "600",
+		"Guard": "All",
+        "Start up frame": "18",
+        "Active": "1",
+        "Recovery": "29",
+        "Frame Advantage": "-1",
+        "Notes": "Can be repeated once."
+    },
+	{
+        "Command": "j.SS",
+        "Damage": "600, 600",
+		"Guard": "All",
+        "Start up frame": "18, 16",
+        "Active": "1, 1",
+        "Recovery": "29",
+        "Frame Advantage": "-1",
+        "Notes": ""
+    },
+	{
+        "Command": "j.2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "15",
+        "Active": "5+",
+        "Recovery": "18",
+        "Frame Advantage": "-10",
+        "Notes": "Is actually a mid, not an overhead. Opponent instantly ground techs upon being hit. Can be instantly cancelled into any command grab on hit or block, allowing for 50/50s on hit."
+    },
+	{
+        "Command": "236L",
+        "Damage": "1200",
+		"Guard": "Throw",
+        "Start up frame": "18",
+        "Active": "1",
+        "Recovery": "26",
+        "Frame Advantage": "-",
+        "Notes": "Stands still and reaches forward as a command grab. Results in a hard knockdown."
+    },
+	{
+        "Command": "236M",
+        "Damage": "1200",
+		"Guard": "Throw",
+        "Start up frame": "28"
+        "Active": "1",
+        "Recovery": "28",
+        "Frame Advantage": "-",
+        "Notes": "Lunges forward after a few frames of startup. Throws the opponent into the wall resulting in a wallbounce for more combo opportunities. Can HKD if wallbounce is already used. Can be followed up by Flying Power Bomb. Deflects ki blasts until the grab box comes out."
+    },
+	{
+        "Command": "236H",
+        "Damage": "1500",
+		"Guard": "Throw",
+        "Start up frame": "26",
+        "Active": "1",
+        "Recovery": "28",
+        "Frame Advantage": "-",
+        "Notes": "Lunges forward similar to the M version but comes out much faster and a goes a tiny bit further. Throws the opponent into the wall resulting in a wallbounce for more combo opportunities. Can HKD if wallbounce is already used. Can be followed up by Flying Power Bomb, or even dash M. Also deflects ki blasts until the grab box comes out."
+    },
+	{
+        "Command": "214L",
+        "Damage": "1300",
+		"Guard": "-",
+        "Start up frame": "10",
+        "Active": "11",
+        "Recovery": "16",
+        "Frame Advantage": "-",
+        "Notes": "Air OK. Lunges at a more vertical angle. Does not result in a hard knockdown."
+    },
+	{
+        "Command": "214M",
+        "Damage": "1300",
+		"Guard": "-",
+        "Start up frame": "19",
+        "Active": "9",
+        "Recovery": "16",
+        "Frame Advantage": "-",
+        "Notes": "Air OK. Lunges at a more horizontal angle than the L version. Has a few frames of startup."
+    },
+	{
+        "Command": "214H",
+        "Damage": "300, 1600",
+		"Guard": "All, -",
+        "Start up frame": "6, 9",
+        "Active": "2, 9",
+        "Recovery": "14",
+        "Frame Advantage": "-4",
+        "Notes": "Air OK. Has a launching hitbox."
+    },
+	{
+        "Command": "j.214L",
+        "Damage": "1400",
+		"Guard": "-",
+        "Start up frame": "10",
+        "Active": "11",
+        "Recovery": "16",
+        "Frame Advantage": "-",
+        "Notes": "Lunges at a more vertical angle. Does not result in a hard knockdown."
+    },
+	{
+        "Command": "j.214M",
+        "Damage": "1400",
+		"Guard": "-",
+        "Start up frame": "19",
+        "Active": "9",
+        "Recovery": "16",
+        "Frame Advantage": "-",
+        "Notes": "Lunges at a more horizontal angle than the L version. Has a few frames of startup."
+    },
+	{
+        "Command": "j.214H",
+        "Damage": "1700",
+		"Guard": "-",
+        "Start up frame": "15",
+        "Active": "9",
+        "Recovery": "14",
+        "Frame Advantage": "-",
+        "Notes": "Has a launching hitbox. "
+    },
+	{
+        "Command": "j.236L",
+        "Damage": "1300",
+		"Guard": "-",
+        "Start up frame": "10",
+        "Active": "3",
+        "Recovery": "22",
+        "Frame Advantage": "-",
+        "Notes": "Is the easiest version to combo into due to it having the least startup. Similar to the grounded version that he does not move during the grab."
+    },
+	{
+        "Command": "j.236M",
+        "Damage": "1300",
+		"Guard": "-",
+        "Start up frame": "24",
+        "Active": "3",
+        "Recovery": "22",
+        "Frame Advantage": "-",
+        "Notes": "Lunges forward after a few frames of startup."
+    },
+	{
+        "Command": "j.236H",
+        "Damage": "1600",
+		"Guard": "-",
+        "Start up frame": "13",
+        "Active": "3",
+        "Recovery": "20",
+        "Frame Advantage": "-",
+        "Notes": "Lunges forward similar to the M version but has little startup frames"
+    },
+	{
+        "Command": "236S",
+        "Damage": "1100",
+		"Guard": "All",
+        "Start up frame": "20",
+        "Active": "15",
+        "Recovery": "22",
+        "Frame Advantage": "0",
+        "Notes": ""
+    },
+	{
+        "Command": "214S",
+        "Damage": "1200",
+		"Guard": "All",
+        "Start up frame": "24",
+        "Active": "15",
+        "Recovery": "18",
+        "Frame Advantage": "+4",
+        "Notes": ""
+    },
+	{
+        "Command": "Assist",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "28",
+        "Active": "15",
+        "Recovery": "46",
+        "Frame Advantage": "-",
+        "Notes": "Can be used as a launcher for some combos."
+    },
+	{
+        "Command": "236L+M",
+        "Damage": "2121",
+		"Guard": "All",
+        "Start up frame": "9+4",
+        "Active": "45",
+        "Recovery": "45",
+        "Frame Advantage": "-",
+        "Notes": "Invuln frames 9-20."
+    },
+		{
+        "Command": "236H+S",
+        "Damage": "2121",
+		"Guard": "All",
+        "Start up frame": "9+4",
+        "Active": "45",
+        "Recovery": "45",
+        "Frame Advantage": "-",
+        "Notes": "Invuln frames 9-20."
+    },
+	{
+        "Command": "214L+M",
+        "Damage": "4816",
+		"Guard": "Throw",
+        "Start up frame": "9+3",
+        "Active": "1",
+        "Recovery": "28",
+        "Frame Advantage": "-",
+        "Notes": "Invuln frames 1-12."
+    },
+	{
+        "Command": "214H+S",
+        "Damage": "50000",
+		"Guard": "Throw",
+        "Start up frame": "31+34",
+        "Active": "4",
+        "Recovery": "37",
+        "Frame Advantage": "-",
+        "Notes": "Invuln frames 1-68."
+    }
+]

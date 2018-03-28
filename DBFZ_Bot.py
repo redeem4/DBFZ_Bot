@@ -80,8 +80,8 @@ async def on_message(message):
 
         if user_Chara_Name == 'dvj' or user_Chara_Name == 'deviljin' or user_Chara_Name == 'devil':
             user_Chara_Name = 'devil_jin'
-        if user_Chara_Name == 'jack':
-            user_Chara_Name = 'jack7'
+        if user_Chara_Name == '16':
+            user_Chara_Name = 'android_16'
         if user_Chara_Name == 'raven':
             user_Chara_Name = 'master_raven'
         if user_Chara_Name == 'yoshi':
