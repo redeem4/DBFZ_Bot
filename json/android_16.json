@@ -183,7 +183,7 @@
         "Command": "236M",
         "Damage": "1200",
 		"Guard": "Throw",
-        "Start up frame": "28"
+        "Start up frame": "28",
         "Active": "1",
         "Recovery": "28",
         "Frame Advantage": "-",
