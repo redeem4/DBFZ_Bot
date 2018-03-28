@@ -329,7 +329,7 @@
         "Frame Advantage": "-",
         "Notes": "Invuln frames 9-20."
     },
-		{
+	{
         "Command": "236H+S",
         "Damage": "2121",
 		"Guard": "All",
