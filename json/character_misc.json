@@ -1,11 +1,4 @@
 [
-    {
-        "name": "akuma",
-        "local_webpage": "akuma.html",
-        "local_json": "akuma.json",
-        "online_webpage": "http://rbnorway.org/akuma-t7-frames",
-        "portrait": "https://i.imgur.com/igzyOMS.jpg"
-    },
 	{
         "name": "goku",
         "local_webpage": "goku.html",
