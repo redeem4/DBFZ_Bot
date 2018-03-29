@@ -78,16 +78,8 @@ async def on_message(message):
         user_Chara_Name = user_message_list[0]
         user_Chara_Move = user_message_list[1]
 
-        if user_Chara_Name == 'dvj' or user_Chara_Name == 'deviljin' or user_Chara_Name == 'devil':
-            user_Chara_Name = 'devil_jin'
         if user_Chara_Name == '16':
             user_Chara_Name = 'android_16'
-        if user_Chara_Name == 'raven':
-            user_Chara_Name = 'master_raven'
-        if user_Chara_Name == 'yoshi':
-            user_Chara_Name = 'yoshimitsu'
-        if user_Chara_Name == 'chloe' or user_Chara_Name == 'lucky':
-            user_Chara_Name = 'lucky_chloe'
 
         #TODO: IMPLEMENT CHARACTER SHORTHAND NAME CONVERTER, OR CHARACTER NAMELIST DISPLAY
         characterExists = dbfzFinder.does_char_exist(user_Chara_Name)
