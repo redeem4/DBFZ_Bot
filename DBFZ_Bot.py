@@ -80,6 +80,8 @@ async def on_message(message):
 
         if user_Chara_Name == '16':
             user_Chara_Name = 'android_16'
+		if user_Chara_Name == 'adult':
+            user_Chara_Name = 'adult_gohan'
 
         #TODO: IMPLEMENT CHARACTER SHORTHAND NAME CONVERTER, OR CHARACTER NAMELIST DISPLAY
         characterExists = dbfzFinder.does_char_exist(user_Chara_Name)

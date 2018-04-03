@@ -12,5 +12,12 @@
         "local_json": "android_16.json",
         "online_webpage": "http://www.dustloop.com/wiki/index.php?title=DBFZ/Android_16",
         "portrait": "https://www.primagames.com/media/files/a16-movelist.jpg/PRIMAP/resize/618x/quality/80"
+    },
+	{
+        "name": "adult_gohan",
+        "local_webpage": "adult_gohan.html",
+        "local_json": "adult_gohan.json",
+        "online_webpage": "http://www.dustloop.com/wiki/index.php?title=DBFZ/Adult_Gohan",
+        "portrait": "https://www.primagames.com/media/files/gohan-movelist_edit.jpg/PRIMAP/resize/618x/quality/80"
     }
 ]

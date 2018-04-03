@@ -1,0 +1,452 @@
+[
+    {
+        "Command": "5L",
+        "Damage": "400x2",
+		"Guard": "Low,All",
+        "Start up frame": "6,6",
+        "Active": "3,3",
+        "Recovery": "11",
+        "Frame Advantage": "-2",
+        "Notes": "Two-hit sequence consisting of a quick stomp and a high punch. Both attacks will always come out when 5L is pressed. The first hit is a standing low."
+    },
+    {
+        "Command": "5LL",
+        "Damage": "100x4",
+		"Guard": "All",
+        "Start up frame": "9,3x3",
+        "Active": "1x4",
+        "Recovery": "17",
+        "Frame Advantage": "-2",
+        "Notes": ""
+    },
+	{
+        "Command": "5LLL",
+        "Damage": "1000",
+		"Guard": "All",
+        "Start up frame": "11",
+        "Active": "2",
+        "Recovery": "19",
+        "Frame Advantage": "-5",
+        "Notes": ""
+    },
+	{
+        "Command": "PU 5L",
+        "Damage": "400x2",
+		"Guard": "Low,All",
+        "Start up frame": "6,6",
+        "Active": "3,3",
+        "Recovery": "11",
+        "Frame Advantage": "-2",
+        "Notes": "Two-hit sequence consisting of a quick stomp and a high punch. Both attacks will always come out when 5L is pressed. The first hit is a standing low."
+    },
+    {
+        "Command": "PU 5LL",
+        "Damage": "450",
+		"Guard": "All",
+        "Start up frame": "7",
+        "Active": "6",
+        "Recovery": "20",
+        "Frame Advantage": "-10",
+        "Notes": ""
+    },
+	{
+        "Command": "PU 5LLL",
+        "Damage": "450",
+		"Guard": "All",
+        "Start up frame": "6",
+        "Active": "2",
+        "Recovery": "20",
+        "Frame Advantage": "-6",
+        "Notes": ""
+    },
+	{
+        "Command": "PU 5LLLL",
+        "Damage": "450",
+		"Guard": "All",
+        "Start up frame": "7",
+        "Active": "3",
+        "Recovery": "13",
+        "Frame Advantage": "0",
+        "Notes": ""
+    },
+	{
+        "Command": "PU 5LLLLL",
+        "Damage": "1000",
+		"Guard": "All",
+        "Start up frame": "11",
+        "Active": "2",
+        "Recovery": "19",
+        "Frame Advantage": "-5",
+        "Notes": ""
+    },
+	{
+        "Command": "5M",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "9",
+        "Active": "4",
+        "Recovery": "20",
+        "Frame Advantage": "-8",
+        "Notes": ""
+    },
+	{
+        "Command": "5H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "11",
+        "Active": "6",
+        "Recovery": "18",
+        "Frame Advantage": "-8",
+        "Notes": ""
+    },
+	{
+        "Command": "5S",
+        "Damage": "800",
+		"Guard": "All",
+        "Start up frame": "17",
+        "Active": "3",
+        "Recovery": "26",
+        "Frame Advantage": "+3",
+        "Notes": "Travels about 80-90% of the screen. Beats super dashes. Whiffs against crouching opponents."
+    },
+	{
+        "Command": "2L",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "8",
+        "Active": "3",
+        "Recovery": "13",
+        "Frame Advantage": "0",
+        "Notes": "No inital proration, unlike most characters' 2L buttons."
+    },
+	{
+        "Command": "2M",
+        "Damage": "700",
+		"Guard": "L",
+        "Start up frame": "12",
+        "Active": "6",
+        "Recovery": "17",
+        "Frame Advantage": "-7",
+        "Notes": "Slides Gohan forward."
+    },
+	{
+        "Command": "2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "14",
+        "Active": "3",
+        "Recovery": "29",
+        "Frame Advantage": "-16",
+        "Notes": "Universal anti-air. Cancels directly into Machinegun Kick. Seems to make Gohan airborne and as a result will not be cancelled into moves like Masenko which require him to be on the ground."
+    },
+	{
+        "Command": "2S",
+        "Damage": "600",
+		"Guard": "All",
+        "Start up frame": "14",
+        "Active": "1",
+        "Recovery": "24",
+        "Frame Advantage": "+2",
+        "Notes": "Pulls Gohan back as he fires the ki blast. Cancels into specials or j.2S on hit/block. Projectile renders on frame 13, and will continue to exist until it hits the opponent or ground."
+    },
+	{
+        "Command": "6M",
+        "Damage": "850",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "6",
+        "Recovery": "10",
+        "Frame Advantage": "0",
+        "Notes": "Universal overhead."
+    },
+	{
+        "Command": "3L",
+        "Damage": "80x4",
+		"Guard": "All",
+        "Start up frame": "9,3x3",
+        "Active": "1x4",
+        "Recovery": "17",
+        "Frame Advantage": "-2",
+        "Notes": "Available at Level 1 Potential Unleashed. Holding L adds extra hits; Each consecutive hit is 1 frame active and 2 frames recovery before the next. Moves Gohan forward as he does the punches, allowing him to stay close during pressure."
+    },
+	{
+        "Command": "3[L]",
+        "Damage": "80x9",
+		"Guard": "All",
+        "Start up frame": "9,3x8",
+        "Active": "1x9",
+        "Recovery": "17",
+        "Frame Advantage": "-2",
+        "Notes": "Available at Level 1 Potential Unleashed. Moves Gohan forward as he does the punches, allowing him to stay close during pressure."
+    },
+	{
+        "Command": "3H",
+        "Damage": "700",
+		"Guard": "All",
+        "Start up frame": "8",
+        "Active": "4",
+        "Recovery": "18",
+        "Frame Advantage": "-6",
+        "Notes": "A jump cancellable, non-smash launcher. Moves him forward slightly."
+    },
+	{
+        "Command": "j.L",
+        "Damage": "400",
+		"Guard": "H",
+        "Start up frame": "6",
+        "Active": "3",
+        "Recovery": "12",
+        "Frame Advantage": "-3",
+        "Notes": ""
+    },
+	{
+        "Command": "j.M",
+        "Damage": "700",
+		"Guard": "H",
+        "Start up frame": "9",
+        "Active": "4",
+        "Recovery": "16",
+        "Frame Advantage": "-4",
+        "Notes": "Great air-to-air normal."
+    },
+	{
+        "Command": "j.H",
+        "Damage": "850",
+		"Guard": "H",
+        "Start up frame": "9",
+        "Active": "4",
+        "Recovery": "16",
+        "Frame Advantage": "-4",
+        "Notes": "Universal air combo ender, provides a hard knockdown when done from high up. Can be cancelled into j.2S fastfall on hit, giving Gohan extra time to set-up."
+    },
+	{
+        "Command": "j.S",
+        "Damage": "600",
+		"Guard": "All",
+        "Start up frame": "12",
+        "Active": "1",
+        "Recovery": "28",
+        "Frame Advantage": "-8",
+        "Notes": "Pulls Gohan back as he fires the ki blast. Cancels into specials or j.2S on hit/block."
+    },
+	{
+        "Command": "j.2H",
+        "Damage": "850",
+		"Guard": "All",
+        "Start up frame": "9",
+        "Active": "3",
+        "Recovery": "19",
+        "Frame Advantage": "-6",
+        "Notes": "Air launcher."
+    },
+	{
+        "Command": "j.2S",
+        "Damage": "0",
+		"Guard": "-",
+        "Start up frame": "9",
+        "Active": "0",
+        "Recovery": "variable+8",
+        "Frame Advantage": "-",
+        "Notes": "Quickly returns Gohan to the ground. Good for mix-ups. No height restriction. [Variable frames depend on height above ground.]"
+    },
+	{
+        "Command": "236L",
+        "Damage": "900",
+		"Guard": "All",
+        "Start up frame": "9",
+        "Active": "8",
+        "Recovery": "33",
+        "Frame Advantage": "-29",
+        "Notes": "Cancels into super."
+    },
+	{
+        "Command": "236M",
+        "Damage": "600,800",
+		"Guard": "All",
+        "Start up frame": "16,8",
+        "Active": "4,9",
+        "Recovery": "34",
+        "Frame Advantage": "-29",
+        "Notes": "Two hits. Is completely invulnerable until the end of the first hit; The first 19 frames of the attack. Good reversal that can challenge the opponent's pressure. Both hits can cancel into super. Will move forward twice as far during the first hit with at least 1 level of Potential Unleashed installed."
+    },
+	{
+        "Command": "236H",
+        "Damage": "600,1000",
+		"Guard": "All",
+        "Start up frame": "9,8",
+        "Active": "4,10",
+        "Recovery": "36",
+        "Frame Advantage": "-33",
+        "Notes": "Costs one meter. Two hits. Is completely invulnerable until the end of the first hit; The first 12 frames of the attack. Good reversal that can challenge the opponent's pressure. Both hits can cancel into super. Will move forward twice as far during the first hit with at least 1 level of Potential Unleashed installed."
+    },
+	{
+        "Command": "214L",
+        "Damage": "900",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "8",
+        "Recovery": "11",
+        "Frame Advantage": "-3",
+        "Notes": "A short forward hop, striking beneath him with his elbow. Does not cross-up."
+    },
+	{
+        "Command": "214M",
+        "Damage": "1000",
+		"Guard": "H",
+        "Start up frame": "28",
+        "Active": "8",
+        "Recovery": "11",
+        "Frame Advantage": "-3",
+        "Notes": "A longer ranged hop, striking beneath him with his elbow. Can cross-up if Gohan leaps over the opponent. At Level 1 Potential Unleashed, M backfist will always cross-up."
+    },
+	{
+        "Command": "214H",
+        "Damage": "1100",
+		"Guard": "H",
+        "Start up frame": "26",
+        "Active": "8",
+        "Recovery": "1",
+        "Frame Advantage": "-3",
+        "Notes": "Costs one meter. A long range hop, striking with his elbow. Can cross-up if Gohan leaps over the opponent."
+    },
+	{
+        "Command": "j.214L",
+        "Damage": "900",
+		"Guard": "H",
+        "Start up frame": "24",
+        "Active": "8",
+        "Recovery": "13",
+        "Frame Advantage": "-5",
+        "Notes": "A short forward hop, striking beneath him with his elbow. Does not cross-up."
+    },
+	{
+        "Command": "j.214M",
+        "Damage": "1000",
+		"Guard": "H",
+        "Start up frame": "28",
+        "Active": "8",
+        "Recovery": "13",
+        "Frame Advantage": "-5",
+        "Notes": "A longer ranged hop, striking beneath him with his elbow. Can cross-up if Gohan leaps over the opponent. At Level 1 Potential Unleashed, M backfist will always cross-up."
+    },
+	{
+        "Command": "j.214H",
+        "Damage": "1100",
+		"Guard": "H",
+        "Start up frame": "26",
+        "Active": "8",
+        "Recovery": "13",
+        "Frame Advantage": "-5",
+        "Notes": "Costs one meter. A long range hop, striking with his elbow. Can cross-up if Gohan leaps over the opponent."
+    },
+	{
+        "Command": "j.236L",
+        "Damage": "350x3",
+		"Guard": "All",
+        "Start up frame": "7,4x2",
+        "Active": "2x3",
+        "Recovery": "12",
+        "Frame Advantage": "-1",
+        "Notes": "Hold L to increase the number of hits. 2H on the ground cancels directly into any Machinegun Kick. L Machinegun Kick carries Gohan's momentum when performed after a forwards or backwards jump or airdash. If done from a neutral jump, Gohan remains in place. Performing a Machinegun Kick and holding down L during an airdash allows Gohan to quickly cover lots of ground while attacking. "
+    },
+	{
+        "Command": "j.236M",
+        "Damage": "350x3",
+		"Guard": "All",
+        "Start up frame": "13,4x2",
+        "Active": "2x3",
+        "Recovery": "12",
+        "Frame Advantage": "-2",
+        "Notes": "Hold M to increase the number of hits. Always moves Gohan forward, can hold 6 to increase distance"
+    },
+	{
+        "Command": "j.236H",
+        "Damage": "1176 (11 hits)",
+		"Guard": "All",
+        "Start up frame": "11,3x8",
+        "Active": "2x9",
+        "Recovery": "11",
+        "Frame Advantage": "+13",
+        "Notes": "24 Frame Blockstun. Causes a wall bounce if there has not been a smash in the combo. Always moves Gohan forward, can hold 6 to increase distance. Does a fixed number of hits."
+    },
+	{
+        "Command": "j.236[L]",
+        "Damage": "350x(3+)",
+		"Guard": "All",
+        "Start up frame": "7,4x(2+)",
+        "Active": "2x(3+)",
+        "Recovery": "9-12",
+        "Frame Advantage": "variable disadv.",
+        "Notes": "Number of attacks and recovery depend on when Gohan lands. Only after PU level 1."
+    },
+	{
+        "Command": "j.236[M]",
+        "Damage": "350x(3+)",
+		"Guard": "All",
+        "Start up frame": "13,4x(2+)",
+        "Active": "2x(3+)",
+        "Recovery": "10-13",
+        "Frame Advantage": "variable disadv.",
+        "Notes": "Number of attacks and recovery depend on when Gohan lands. Only after PU level 1."
+    },
+	{
+        "Command": "236S",
+        "Damage": "1098 (5 hits)",
+		"Guard": "All",
+        "Start up frame": "18",
+        "Active": "25",
+        "Recovery": "21",
+        "Frame Advantage": "-16",
+        "Notes": "Gohan fires a horizontal beam in front of him. Beats super dashes. Cannot be angled, ground only."
+    },
+	{
+        "Command": "Assist",
+        "Damage": "800",
+		"Guard": "All",
+        "Start up frame": "15",
+        "Active": "8",
+        "Recovery": "64",
+        "Frame Advantage": "-",
+        "Notes": "The damage buff from levels 2-6 of Potential Unleashed applies to his assist as well."
+    },
+	{
+        "Command": "236L+M",
+        "Damage": "1600",
+		"Guard": "All",
+        "Start up frame": "9+3",
+        "Active": "10",
+        "Recovery": "44",
+        "Frame Advantage": "-29",
+        "Notes": "Can stack up to 7 levels of Potential Unleashed. Each level requires 1 Ki gauge. Can dump multiple bars of meter for more levels in one install by doing the 236H+S version and holding the buttons. With the held version (236H+S), time is stopped for the first 5 levels. If held for longer, the opponent will be able to move freely before Gohan finishes. Potential Unleashed bonuses will remain for the rest of the match."
+    },
+	{
+        "Command": "236H+S",
+        "Damage": "1600",
+		"Guard": "All",
+        "Start up frame": "9+3",
+        "Active": "10",
+        "Recovery": "44",
+        "Frame Advantage": "-29",
+        "Notes": "Can stack up to 7 levels of Potential Unleashed. Each level requires 1 Ki gauge. Can dump multiple bars of meter for more levels in one install by doing the 236H+S version and holding the buttons. With the held version (236H+S), time is stopped for the first 5 levels. If held for longer, the opponent will be able to move freely before Gohan finishes. Potential Unleashed bonuses will remain for the rest of the match."
+    },
+	{
+        "Command": "214L+M",
+        "Damage": "4123 (48 hits)",
+		"Guard": "All",
+        "Start up frame": "9+3",
+        "Active": "101",
+        "Recovery": "50",
+        "Frame Advantage": "-34",
+        "Notes": "A giant fullscreen beam can that can punish both the opponent and any assists. Can be used as a reversal like most level 3 supers. If Gotenks is not in your team, Goten will come out to help in the Kamehameha. If Goku is on your team, he'll show up to help (but only if Gotenks is not on your team). Damage is not increased if either member of the family helps. Goku and Goten will have their own hurtboxes before Gohan receives his."
+    },
+	{
+        "Command": "214H+S",
+        "Damage": "4123 (48 hits)",
+		"Guard": "All",
+        "Start up frame": "9+3",
+        "Active": "101",
+        "Recovery": "50",
+        "Frame Advantage": "-34",
+        "Notes": "A giant fullscreen beam can that can punish both the opponent and any assists. Can be used as a reversal like most level 3 supers. If Gotenks is not in your team, Goten will come out to help in the Kamehameha. If Goku is on your team, he'll show up to help (but only if Gotenks is not on your team). Damage is not increased if either member of the family helps. Goku and Goten will have their own hurtboxes before Gohan receives his."
+    }
+]
